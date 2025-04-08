@@ -56,7 +56,7 @@ return () => window.removeEventListener("scroll",handleScroll)
 
      </div>
      <div  className='relative h-130 '>
-      <img src="src/coffe2.jpg " className='h-140 w-full opacity-90 '  />
+      <img  src={`${import.meta.env.BASE_URL}coffe2.jpg`} className='h-140 w-full opacity-90 '  />
       <span className='absolute tracking-[7px] -translate-x-15 text-white text-4xl font-bold   bottom-1/2 left-32 font-should w-76'>Ayo Nikmati Secangkir Kopi</span>
       <button className='px-5 py-1 bg-blue-500 absolute text-white rounded-xl bottom-48 text-lg  left-35 hover:cursor-pointer active:bg-blue-700 active:text-slate-400 '>Lihat Product</button>
       </div>
@@ -65,38 +65,38 @@ return () => window.removeEventListener("scroll",handleScroll)
       </div>
 <div className='mt-15 flex justify-around xs:flex-wrap'>
  <div className='w-90 overflow-x-clip rounded-md pb-7 '>
-     <img src="src/product1.jpeg " className='w-full h-75'  />
+     <img src={`${import.meta.env.BASE_URL}product1.jpeg`} className='w-full h-75'  />
      <h2 className='font-bold text-center mt-12 tracking-[7px] pb-2'>Coffee | Latte</h2>
      <h2 className='w-full text-center mt-2'>Rp 17.000,00</h2>
      <div className='flex bg-red-300 rounded-xl py-1 mx-10 mt-2'>
-     <img src="src/cart.png" className='w-7 h-7 ml-7' /> 
+     <img  src={`${import.meta.env.BASE_URL}cart.png`} className='w-7 h-7 ml-7' /> 
      <button className='ml-7'>Tambah Ke Cart</button>
      </div>
 
  </div>
  <div className=' w-90 overflow-x-clip rounded-sm pb-7'>
-     <img src="src/cappucino.jpg " className='w-full h-75'  />
+     <img src={`${import.meta.env.BASE_URL}cappucino.jpg`} className='w-full h-75'  />
      <h2 className='font-bold text-center mt-12 tracking-[7px] pb-2'>Coffee | Cappucino</h2>
      <h2 className='w-full text-center mt-2'>Rp 13.000,00</h2>
      <div className='flex bg-red-300 rounded-xl py-1 mx-10 mt-2'>
-     <img src="src/cart.png" className='w-7 h-7 ml-7' /> 
+     <img s src={`${import.meta.env.BASE_URL}cart.png`} className='w-7 h-7 ml-7' /> 
      <button className='ml-7'>Tambah Ke Cart</button>
      </div>
 
  </div>
  <div className=' w-90 overflow-x-clip rounded-md pb-7'>
-     <img src="src/macchiato.webp " className='w-full h-75'  />
+     <img src={`${import.meta.env.BASE_URL}macchiato.webp`} className='w-full h-75'  />
      <h2 className='font-bold text-center mt-12 tracking-[7px] pb-2'>Coffee | Macchiato</h2>
      <h2 className='w-full text-center mt-2'>Rp 21.000,00</h2>
      <div className='flex bg-red-300 rounded-xl py-1 mx-10 mt-2'>
-     <img src="src/cart.png" className='w-7 h-7 ml-7' /> 
+     <img  src={`${import.meta.env.BASE_URL}cart.png`}className='w-7 h-7 ml-7' /> 
      <button className='ml-7'>Tambah Ke Cart</button>
      </div>
  </div>
 </div>
 
 <div className='mt-20 lg:p-8 xs:p-2 w-full' id='about' >
-   <div className='bg-[url(src/cofe.jpg)] w-full h-110 relative bg-cover'>
+   <div className='w-full h-110 relative bg-cover' style={{backgroundImage:`url(${import.meta.env.BASE_URL}cofe.jpg)`}}>
 <div className='absolute bg-gradient-to-r from-yellow-900/90 to-transparent inset-0'></div>
 <h1 className='absolute lg:top-12 lg:left-20 text-white text-2xl font-sans tracking-[5px] xs:left-5 '>ABOUT</h1>
 <p className='absolute lg:top-27 lg:left-20 text-white text-lg  w-140 xs:w-120 xs:top-35 xs:left-10'> MimaCoffe adalah sebuah restoran yang menjual produk coffe , restoran ini didirikan oleh Fadhil tahun pada 2025</p>
@@ -117,7 +117,7 @@ return () => window.removeEventListener("scroll",handleScroll)
 </div>
 <div>
   <h2 className='text-white text-3xl text-center'>Sosial Media Kami</h2>
-<img src="src/media.png" className='w-90 h-60' />
+<img src={`${import.meta.env.BASE_URL}media.png`} className='w-90 h-60' />
 </div>
 </footer>
     </>
